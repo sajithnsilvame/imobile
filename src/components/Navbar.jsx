@@ -52,24 +52,140 @@ const Navbar = () => {
             >
               AirPods
             </a>
-            <a
-              href="#"
-              className="hover:text-gray-300 px-3 py-2 rounded-md text-sm font-medium"
-            >
-              Watch
-            </a>
+            <div className="relative group">
+              <a
+                href="#"
+                className="hover:text-gray-300 px-3 py-2 rounded-md text-sm font-medium"
+              >
+                Watch
+              </a>
+              <div className="absolute left-0 mt-2 w-48 rounded-md shadow-lg bg-gray-800 ring-1 ring-black ring-opacity-5 hidden group-hover:block">
+                <a
+                  href="#"
+                  className="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-700"
+                >
+                  Bands
+                </a>
+                <a
+                  href="#"
+                  className="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-700"
+                >
+                  Series 3
+                </a>
+                <a
+                  href="#"
+                  className="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-700"
+                >
+                  Series 6
+                </a>
+                <a
+                  href="#"
+                  className="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-700"
+                >
+                  Series 7
+                </a>
+                <a
+                  href="#"
+                  className="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-700"
+                >
+                  Series 8
+                </a>
+                <a
+                  href="#"
+                  className="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-700"
+                >
+                  Series 9
+                </a>
+              </div>
+            </div>
             <a
               href="#"
               className="hover:text-gray-300 px-3 py-2 rounded-md text-sm font-medium"
             >
               Mac
             </a>
-            <a
-              href="#"
-              className="hover:text-gray-300 px-3 py-2 rounded-md text-sm font-medium"
-            >
-              Accessories
-            </a>
+            <div className="relative group">
+              <a
+                href="#"
+                className="hover:text-gray-300 px-3 py-2 rounded-md text-sm font-medium"
+              >
+                Accessories
+              </a>
+              <div className="absolute left-0 mt-2 w-48 rounded-md shadow-lg bg-gray-800 ring-1 ring-black ring-opacity-5 hidden group-hover:block">
+                <a
+                  href="#"
+                  className="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-700"
+                >
+                  Adapters & Cables
+                </a>
+                <a
+                  href="#"
+                  className="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-700"
+                >
+                  Airtag
+                </a>
+                <a
+                  href="#"
+                  className="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-700"
+                >
+                  Apple Pencil
+                </a>
+                <a
+                  href="#"
+                  className="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-700"
+                >
+                  EarPods
+                </a>
+                <a
+                  href="#"
+                  className="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-700"
+                >
+                  GoPro
+                </a>
+                <a
+                  href="#"
+                  className="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-700"
+                >
+                  Hubs
+                </a>
+                <a
+                  href="#"
+                  className="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-700"
+                >
+                  Mouse & Keyboard
+                </a>
+                <a
+                  href="#"
+                  className="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-700"
+                >
+                  PlayStation
+                </a>
+                <a
+                  href="#"
+                  className="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-700"
+                >
+                  Power Bank
+                </a>
+                <a
+                  href="#"
+                  className="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-700"
+                >
+                  Protective covers
+                </a>
+                <a
+                  href="#"
+                  className="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-700"
+                >
+                  Tempered Glass
+                </a>
+                <a
+                  href="#"
+                  className="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-700"
+                >
+                  Virtual Reality
+                </a>
+              </div>
+            </div>
             <a
               href="#"
               className="hover:text-gray-300 px-3 py-2 rounded-md text-sm font-medium"
