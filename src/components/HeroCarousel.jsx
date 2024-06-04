@@ -3,7 +3,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/24/outline";
 import slide1 from "../assets/slide1-img.jpg";
 import slide2 from "../assets/slide2-img.jpg";
-import slide3 from "../assets/slide3-img.jpg";
+import slide3 from "../assets/Happy.png";
 import slide4 from "../assets/slide4-img.jpg";
 
 const HeroCarousel = () => {
