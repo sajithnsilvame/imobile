@@ -42,16 +42,17 @@ const HeroCarousel = () => {
           )
         }
       >
-        <div>
+        {/* <div className="mt-16 md:mt-0"></div> */}
+        <div className="mt-16 md:mt-0">
           <img src={slide1} alt="Slide 1" />
         </div>
-        <div>
+        <div className="mt-14 md:mt-0">
           <img src={slide2} alt="Slide 2" />
         </div>
-        <div>
+        <div className="mt-16 md:mt-0">
           <img src={slide3} alt="Slide 3" />
         </div>
-        <div>
+        <div className="mt-16 md:mt-0">
           <img src={slide4} alt="Slide 4" />
         </div>
       </Carousel>
