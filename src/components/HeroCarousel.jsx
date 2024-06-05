@@ -21,7 +21,7 @@ const HeroCarousel = () => {
               type="button"
               onClick={onClickHandler}
               title={label}
-              className="absolute left-14 z-10 p-2 bg-gray-900 bg-opacity-50 rounded-full"
+              className="absolute left-14 z-10 p-2 bg-gray-900 bg-opacity-50 rounded-full mt-10"
               style={{ top: "50%", transform: "translateY(-50%)" }}
             >
               <ChevronLeftIcon className="h-6 w-6 text-white" />
@@ -34,7 +34,7 @@ const HeroCarousel = () => {
               type="button"
               onClick={onClickHandler}
               title={label}
-              className="absolute right-14 z-10 p-2 bg-gray-900 bg-opacity-50 rounded-full"
+              className="absolute right-14 z-10 p-2 bg-gray-900 bg-opacity-50 rounded-full mt-10"
               style={{ top: "50%", transform: "translateY(-50%)" }}
             >
               <ChevronRightIcon className="h-6 w-6 text-white" />
